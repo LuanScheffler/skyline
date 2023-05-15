@@ -1,0 +1,81 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+
+body {
+    background: linear-gradient(100deg, rgb(255, 73, 194), rgb(113, 0, 179));
+    height: 100vh;
+}  
+
+.gtr35 {
+    border: 6px solid black;
+}
+.gtr34 {
+    border: 6px solid black;
+
+}
+.gtr33 {
+    opacity: 0.8;
+    border: 6px solid black;
+    margin-left: 10%;
+}
+.botao:hover {
+    transform: scale(1.20);
+    transition: 0.6s;
+}
+.botao {
+    position: relative;
+    right: 50px;
+	padding: 10px;
+	background-color: rgb(0, 0, 0);
+	border: 1px solid #000000;
+    display: flex;
+    width: 5%;
+    height: 20px;
+    margin-left: 50%;
+    margin-top: 50px;
+}
+img {
+    margin: 20px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+li:nth-child(odd) {
+    font-weight: bolder;
+    color: white;
+}
+
+.item1::before {
+    content: "\01F47E";
+}
+.item2::before {
+    content: "\01F47E";
+}
+.item3::before {
+    content: "\01F47E";
+}
+
+img { 
+    justify-content: space-around;
+
+}
+h1 { 
+    padding: 20px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.vidio { 
+    position: relative;
+    right: -665px;
+}
